@@ -1,0 +1,8 @@
+version: "3"
+services:
+  visualizer:
+    build: ./Visualizer
+    ports:
+      - "80:80"
+  miner:
+    build: ./Miner
